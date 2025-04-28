@@ -1,0 +1,13 @@
+conta = ContaBancaria()
+
+# Realizando depósitos
+conta.depositar(1000.50)
+conta.depositar(500.00)
+
+# Realizando saques
+conta.sacar(200.00)
+conta.sacar(450.00)
+conta.sacar(100.00)
+
+# Exibindo o extrato
+conta.extrato()
